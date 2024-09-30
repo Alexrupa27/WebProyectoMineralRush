@@ -2,6 +2,10 @@ html{
     background-image: url(../Assets/images/fondo.webp);
     background-position: center;
     background-size: cover;
-    background-color: black;
+    background-color: rgb(44, 16, 44);
+}
+
+header {
+    background-image: url(../Assets/images/headerimage.webp);
     background-repeat: no-repeat;
 }
