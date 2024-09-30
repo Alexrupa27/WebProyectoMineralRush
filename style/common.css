@@ -1,6 +1,7 @@
 html{
     background-image: url(../Assets/images/fondo.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-color: black;
+    background-repeat: no-repeat;
 }
