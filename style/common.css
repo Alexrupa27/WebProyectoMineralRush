@@ -1,5 +1,43 @@
-html{
+body{ 
     background-image: url(../Assets/images/fondo.webp);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    background-color: rgb(37, 7, 37);
+    background-repeat: no-repeat;
+    height: fill;
 }
+header {
+    display: flex;
+    background-image: url(../Assets/images/headerimage.webp);
+    background-repeat: no-repeat;
+    flex-direction: row;
+    border: solid red 5px;
+    margin-left: 3em;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    border: solid green 5px;
+    width: 56em;
+}
+header div div {
+    width: auto;
+}
+nav {
+    margin-top: 2.6em;
+}
+
+#home {
+    height: 2em;
+    width: auto;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+#logo {
+    height: 6em;
+    display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
