@@ -1,5 +1,26 @@
-html{
-    background-image: url(../Assets/images/fondo.webp);
-    background-position: center;
+body {
+    background: url(/Assets/images/fondo.gif) no-repeat center top;
     background-size: cover;
+    background-color: #160216;
+}
+nav {
+    position: relative; /* Posiciona el texto sobre el fondo borroso */
+    color: #ffffff; /* Color del texto */
+    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
+    text-align: center; /* Alinea el texto al centro */
+}
+header{
+    position: relative; /* Posiciona el texto sobre el fondo borroso */
+    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
+
+}
+.Menu a {
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    
+}
+.Menu img {
+    display: flex;
+    position:absolute;
+    width: 100%; /* Ajusta el tamaño de las imágenes */
+    top: 0%;
 }
