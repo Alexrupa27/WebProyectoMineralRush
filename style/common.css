@@ -9,6 +9,11 @@ nav {
     z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
     text-align: center; /* Alinea el texto al centro */
 }
+header{
+    position: relative; /* Posiciona el texto sobre el fondo borroso */
+    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
+
+}
 .Menu a {
     margin: 0 15px; /* Espaciado entre los enlaces */
     
