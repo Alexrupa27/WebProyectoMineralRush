@@ -1,1 +1,85 @@
-  
+.fondoBorroso {
+    position: absolute; /* Posiciona el contenido sobre la imagen */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
+    backdrop-filter:blur(0.18em); /* Aplica el desenfoque */
+}
+body {
+    background: url(/Assets/images/fondo.gif) no-repeat center top;
+    background-size: cover;
+    background-color: #160216;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+header {
+    margin: 0%;
+    position: relative; /* Posiciona el texto sobre el fondo borroso */
+    z-index: 1;
+    height: 12em;
+}
+
+/*--------------------------------------------------------*/
+
+nav{
+    height: 7em;
+    
+}
+
+.imagenesNav
+{
+    position: absolute;
+    width: 99%;
+    
+}
+#home {
+    height: 2em;
+    width: auto;
+    position: absolute;
+    margin-top: 5.2%;
+    margin-left: 9%;
+}
+
+#logo {
+    position: absolute;
+    width: 13%;
+    left: 83%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#logoDiscord{
+    position: absolute;
+    width: 8%;
+    top: -40%;
+    left: 47em;
+}
+#headerNv{
+    position: absolute;
+    width: 77%;
+    margin-left: 3em;
+    margin-top: 1.1em;
+}
+.textoNav {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    top: 43%;
+    left: 12%;
+}
+.textoNav a {
+    text-decoration: none;
+    margin: 2.5%;
+    color: #672b00;
+    font-size: larger;
+    font-weight: 900;
+    font-family: "inter";
+    
+}
+.textoNav a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+    0 0 20px rgba(255, 255, 255, 0.6), 
+    0 0 30px rgba(255, 255, 255, 0.4);
+}
