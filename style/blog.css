@@ -1,0 +1,78 @@
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Tamaño del título */
+    font-family: 'Minecraft', sans-serif;
+    font-weight: bold;
+    color: #fefefe; /* Color del texto */
+}
+
+.titulo::before,
+.titulo::after {
+    content: '';
+    flex-grow: 1;
+    height: 0.1em;
+    background-color: #ffffff;
+    margin: 0 1em; 
+}
+
+
+div {
+    margin:0 2em 0 2em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.transparentBoxMain {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+  width: 60%;
+  height: 100%;
+  background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+  backdrop-filter: blur(10px); /* Aplica el desenfoque */
+  border-radius: 20px; /* Bordes redondeados opcionales */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
+
+  overflow: hidden;
+}
+
+.transparentBoxLateral {
+    
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+    backdrop-filter: blur(10px); /* Aplica el desenfoque */
+    border-radius: 20px; /* Bordes redondeados opcionales */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(162, 6, 209, 0.2); 
+
+    color: white;
+
+
+}
+
+.miniBox {
+    
+    margin: 0;  
+    max-width: 90%;
+    max-height: 90%;
+    background-color: rgba(222, 215, 215, 0.103); /* Color blanco semitransparente */
+    backdrop-filter: blur(10px); /* Aplica el desenfoque */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.2); /* Sombra opcional */
+
+    
+    overflow: hidden;
+
+    color: white;
+
+}
