@@ -4,10 +4,12 @@ body {
     background-size: cover;
     background-color: #160216;
 }
+
+
+/*
 header {
     display: flex;
-    background-image: url(../Assets/images/headerimage.webp);
-    background-repeat: no-repeat;
+    
     flex-direction: row;
     border: solid red 5px;
     margin-left: 3em;
@@ -21,13 +23,13 @@ header div{
 header div div {
     width: auto;
     position: relative; /* Posiciona el texto sobre el fondo borroso */
-    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
-}
+/*    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
+/*}
 nav {
     margin-top: 2.6em;
     position: relative; /* Posiciona el texto sobre el fondo borroso */
-    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
-}
+/*    z-index: 1; /* Asegura que el texto esté por encima del fondo borroso */
+/*}
 
 #home {
     height: 2em;
@@ -41,3 +43,4 @@ nav {
     display: flex;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+*/
