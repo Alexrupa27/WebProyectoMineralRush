@@ -7,13 +7,18 @@
     background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
     backdrop-filter:blur(0.18em); /* Aplica el desenfoque */
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
 body {
     background: url(/Assets/images/fondo.gif) no-repeat center top;
     background-size: cover;
     background-color: #160216;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+header {
+    margin: 0%;
+    border: solid red 5px;
+    position: relative; /* Posiciona el texto sobre el fondo borroso */
+    z-index: 1;
 }
