@@ -22,3 +22,9 @@ header {
     position: relative; /* Posiciona el texto sobre el fondo borroso */
     z-index: 1;
 }
+
+/*--------------------------------------------------------*/
+
+nav{
+    border: solid blue  5px;
+}
