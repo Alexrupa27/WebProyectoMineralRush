@@ -1,0 +1,13 @@
+#LogoGigante {
+position:relative;
+}
+
+#subtext{
+width: 60em;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

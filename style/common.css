@@ -1,4 +1,4 @@
-.fondoBorroso {
+body{
     position: absolute; /* Posiciona el contenido sobre la imagen */
     top: 0;
     left: 0;
@@ -27,7 +27,6 @@ header {
 
 nav{
     height: 7em;
-    
 }
 
 .imagenesNav
@@ -53,8 +52,7 @@ nav{
 #logoDiscord{
     position: absolute;
     width: 8%;
-    top: 15%;
-    left: 47em;
+    left: 45em;
 }
 #headerNv{
     position: absolute;
@@ -66,7 +64,7 @@ nav{
     position: absolute;
     z-index: 1;
     width: 50%;
-    top: 33%;
+    top: 40%;
     left: 12%;
 }
 .textoNav a {
