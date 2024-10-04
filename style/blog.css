@@ -1,4 +1,6 @@
-
+body{
+    margin: 0%;
+}
 
 .titulo {
     display: flex;
@@ -20,34 +22,36 @@
 }
 
 
-div {
-    margin:0 2em 0 2em;
+#blog {
+    margin:0 5em 0 5em;
     display: flex;
     justify-content:space-between;
+    
+  
 }
 
 .transparentBoxMain {
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
 
-  width: 60%;
-  height: 100%;
-  background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
-  backdrop-filter: blur(10px); /* Aplica el desenfoque */
-  border-radius: 20px; /* Bordes redondeados opcionales */
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
+    width: 70%;
+    height: 100%;
+    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+    backdrop-filter: blur(10px); /* Aplica el desenfoque */
+    border-radius: 20px; /* Bordes redondeados opcionales */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
 
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .transparentBoxLateral {
     
     width: 20%;
-    height: 100vh;
+    height: 65vh;
     background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
     backdrop-filter: blur(10px); /* Aplica el desenfoque */
     border-radius: 20px; /* Bordes redondeados opcionales */
@@ -60,9 +64,9 @@ div {
 }
 
 .miniBox {
-    
-    margin: 0;  
-    max-width: 90%;
+    display: flex;
+    margin: 0;
+    max-width: 100%;
     max-height: 90%;
     background-color: rgba(222, 215, 215, 0.103); /* Color blanco semitransparente */
     backdrop-filter: blur(10px); /* Aplica el desenfoque */
@@ -70,8 +74,9 @@ div {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(82, 11, 11, 0.2); /* Sombra opcional */
 
-    
     overflow: hidden;
+
+    
 
     color: white;
 
