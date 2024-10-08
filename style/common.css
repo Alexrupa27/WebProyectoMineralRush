@@ -26,10 +26,11 @@ nav{
 }
 
 #headerNv{
-    flex: 8;
+    flex: 9;
 
     max-height: 20vh;
-
+    padding-right: 30%;
+    padding-left: 5%;
     /* background-image: url(../Assets/images/headerimage.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +96,16 @@ footer{
     /* min-height: 20vh;
     width: 80vw; */
     /* width: em; */
+}
+
+#logoDiscord{
+    width: 40%;
+
+}
+
+#home{
+    width: 27%;
+
 }
 
 
