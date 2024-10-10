@@ -20,8 +20,7 @@ header{
 
 nav{
     height: 100%;
-
-    margin-left: 3em;
+    margin-left: 3em;    
     margin-right: 3em;
 }
 
@@ -29,8 +28,8 @@ nav{
     flex: 9;
 
     max-height: 20vh;
-    padding-right: 30%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 8%;
     /* background-image: url(../Assets/images/headerimage.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,6 +108,10 @@ footer{
 }
 
 
+
+
+
+
 /*
 body{
     position: absolute; // Posiciona el contenido sobre la imagen
@@ -185,9 +188,11 @@ nav{
     font-weight: 900;
     font-family: "inter";
     
-}
-.textoNav a:hover {
+} */
+a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
     0 0 20px rgba(255, 255, 255, 0.6), 
     0 0 30px rgba(255, 255, 255, 0.4);
-} */
+} 
+
+
