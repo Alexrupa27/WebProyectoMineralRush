@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
 }
-
 body{
     background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
     backdrop-filter:blur(0.18em); /* Aplica el desenfoque */
@@ -13,30 +12,30 @@ body{
     height: 100vh;
     width: 100vw;
 }
-
-header{
-    height: 20vh;
-}
-
 nav{
     height: 100%;
 
     margin-left: 3em;
     margin-right: 3em;
 }
-
+#hamburger{
+    width: 4em;
+}
 #headerNv{
+    
     flex: 9;
-
+    justify-content: flex-end;
+    width: max-content;
     max-height: 20vh;
-    padding-right: 30%;
-    padding-left: 5%;
+    padding-right: 0%;
+    padding-left: 0%;
+
+    /* align-items: flex-end; */
     /* background-image: url(../Assets/images/headerimage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: auto 20vh; */
 
-    /* background: url(../Assets/images/headerimage.png) no-repeat cover; */
 }
 
 #logo{
@@ -74,6 +73,7 @@ footer{
 }
 
 .navText{
+    display: none;
     flex: 1;
     text-decoration: none;
     color: #672b00;
@@ -83,111 +83,137 @@ footer{
     /* background-color: aliceblue; */
 }
 
+
 #headerImg{
-    z-index: -1;
-    position: absolute;
-
-    width: 85vw;
-    height: 18vh;
-
-    top: 1vh;
-    right: 1vw;
-
-    /* min-height: 20vh;
-    width: 80vw; */
-    /* width: em; */
+    width: 0%;
 }
 
-#logoDiscord{
-    width: 40%;
-
-}
+#logoDiscord{display: none;}
 
 #home{
-    width: 27%;
-
+    display: none;
 }
 
 
-/*
-body{
-    position: absolute; // Posiciona el contenido sobre la imagen
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom:0;
-    background-color: rgba(255, 255, 255, 0); // Fondo semi-transparente 
-    backdrop-filter:blur(0.18em); // Aplica el desenfoque
-}
-
-body {
-    background: url(../Assets/images/fondo.gif) no-repeat center top;
-    background-size: cover;
-    background-color: #160216;
-}
-
-header {
-    margin: 0%;
-    position: relative; // Posiciona el texto sobre el fondo borroso
-    z-index: 1;
-    height: 12em;
-}
+/* --------------------------------------------PC---------------------------------------------------------- */
 
 
+@media only screen and (min-width: 1095px) {
+    #hamburger{display: none;}
+    #logoDiscord{
+        display: flex;
+        width: 40%;}
+    #home{
+        display: flex;width: 27%;}
 
-nav{
-    height: 7em;
-}
+    
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    body{
+        background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
+        backdrop-filter:blur(0.18em); /* Aplica el desenfoque */
+        background: url(../Assets/images/fondo.gif) no-repeat center top;
+        background-size: cover;
+    
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    header{
+        height: 20vh;
+    }
+    
+    nav{
+        
+        
+        height: 100%;
+    
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    
+    #headerNv{
+        display: flex;
+        flex: 9;
+    
+        max-height: 20vh;
+        padding-right: 30%;
+        padding-left: 5%;
+        /* background-image: url(../Assets/images/headerimage.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: auto 20vh; */
+    
+        /* background: url(../Assets/images/headerimage.png) no-repeat cover; */
+    }
+    
+    #logo{
+        flex: 1;
+    
+        max-height: 20vh;
+    }
+    
+    main{
+        height: 70vh;
+        /* background-color: blueviolet; */
+    }
+    
+    footer{
+        height: 10vh;
+        /* background-color: chartreuse; */
+    }
+    
+    
+    .flex{
+        display:flex;
+    }
+    
+    .row{
+        flex-direction: row;
+    }
+    
+    .column{
+        flex-direction: column;
+    }
+    
+    .flexCenter{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .navText{
+        display: flex;
+        flex: 1;
+        text-decoration: none;
+        color: #672b00;
+        font-size: larger;
+        font-weight: 900;
+        font-family: "inter";
+        /* background-color: aliceblue; */
+    }
+    .navHamburger{
+        
+    }
 
-.imagenesNav
-{
-    position: absolute;
-    width: 99%;
+    
+    #headerImg{
+        z-index: -1;
+        position: absolute;
+    
+        width: 85vw;
+        height: 18vh;
+    
+        top: 1vh;
+        right: 1vw;
+    
+        /* min-height: 20vh;
+        width: 80vw; */
+        /* width: em; */
+    }
+    
     
 }
-#home {
-    height: 2em;
-    width: auto;
-    position: absolute;
-    margin-top: 5.2%;
-    margin-left: 9%;
-}
-
-#logo {
-    position: absolute;
-    width: 13%;
-    left: 83%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-#logoDiscord{
-    position: absolute;
-    width: 8%;
-    left: 45em;
-}
-#headerNv{
-    position: absolute;
-    width: 77%;
-    margin-left: 3em;
-    margin-top: 1.1em;
-}
-.textoNav {
-    position: absolute;
-    z-index: 1;
-    width: 50%;
-    top: 40%;
-    left: 12%;
-}
-.textoNav a {
-    text-decoration: none;
-    margin: 2.5%;
-    color: #672b00;
-    font-size: larger;
-    font-weight: 900;
-    font-family: "inter";
-    
-}
-.textoNav a:hover {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
-    0 0 20px rgba(255, 255, 255, 0.6), 
-    0 0 30px rgba(255, 255, 255, 0.4);
-} */
