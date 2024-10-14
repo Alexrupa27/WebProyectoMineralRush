@@ -40,7 +40,7 @@ nav{
 
 #logo{
     flex: 1;
-
+    
     max-height: 20vh;
 }
 
@@ -80,7 +80,7 @@ footer{
     font-size: larger;
     font-weight: 900;
     font-family: "inter";
-    /* background-color: aliceblue; */
+    /* background-color: white; */
 }
 
 
@@ -142,7 +142,7 @@ footer{
     
         max-height: 20vh;
         padding-right: 30%;
-        padding-left: 5%;
+        padding-left: 7%;
         /* background-image: url(../Assets/images/headerimage.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -153,7 +153,7 @@ footer{
     
     #logo{
         flex: 1;
-    
+
         max-height: 20vh;
     }
     
@@ -195,10 +195,6 @@ footer{
         font-family: "inter";
         /* background-color: aliceblue; */
     }
-    .navHamburger{
-        
-    }
-
     
     #headerImg{
         z-index: -1;
