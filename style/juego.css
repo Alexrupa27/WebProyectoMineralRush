@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+}
+
+.subTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Tamaño del título */
+    font-family: 'Minecraft', sans-serif;
+    font-weight: bold;
+    color: #fefefe; /* Color del texto */
+}
+
+.subTitulo::before,
+.subTitulo::after {
+    content: '';
+    flex-grow: 1;
+    height: 0.1em;
+    background-color: #ffffff;
+    margin: 0 1em; 
+}
+
+
+#juego{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 4em;
+}
+
+.imgContainer{
+
+    display: flex;
+    align-items: center;
+
+    width: 20em;
+    height: 50vh;
+    background-color: white;
+    border-radius: 20px; /* Bordes redondeados opcionales */
+    padding: 20px;
+
+}
+
+.transparentBoxMain {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    
+
+    margin-left: 16em;
+    margin-right: 2em;
+
+    width: 40%;
+    height: 50vh;
+    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+    backdrop-filter: blur(10px); /* Aplica el desenfoque */
+    border-radius: 20px; /* Bordes redondeados opcionales */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
+
+    overflow: hidden;
+}
+
+
+
+#text{
+
+    padding: 1em;
+
+    color: white;
+}

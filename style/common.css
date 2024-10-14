@@ -14,8 +14,7 @@ body{
 }
 nav{
     height: 100%;
-
-    margin-left: 3em;
+    margin-left: 3em;    
     margin-right: 3em;
 }
 #hamburger{
@@ -31,6 +30,7 @@ nav{
     padding-left: 0%;
 
     /* align-items: flex-end; */
+
     /* background-image: url(../Assets/images/headerimage.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,15 @@ footer{
 
 #home{
     display: none;
+
+
 }
+
+
+
+
+
+
 
 
 /* --------------------------------------------PC---------------------------------------------------------- */
@@ -213,3 +221,4 @@ footer{
     
     
 }
+
