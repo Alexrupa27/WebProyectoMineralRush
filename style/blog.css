@@ -1,5 +1,5 @@
-body{
-    margin: 0%;
+body {
+    margin: 0;
 }
 
 .titulo {
@@ -18,53 +18,41 @@ body{
     flex-grow: 1;
     height: 0.1em;
     background-color: #ffffff;
-    margin: 0 1em; 
+    margin: 0 1em;
 }
 
-
 #blog {
-    margin:0 5em 0 5em;
+    margin: 0 5em;
     display: flex;
-    justify-content:space-between;
-    
-  
+    justify-content: space-between;
 }
 
 .transparentBoxMain {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
-
     margin-top: 1em;
-
     width: 70%;
     height: 100%;
-    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+    background-color: rgba(222, 215, 215, 0.3); /* Color blanco semitransparente */
     backdrop-filter: blur(10px); /* Aplica el desenfoque */
-    border-radius: 20px; /* Bordes redondeados opcionales */
+    border-radius: 20px; /* Bordes redondeados */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
-
     overflow: hidden;
 }
 
 .transparentBoxLateral {
-    
     width: 20%;
     height: 65vh;
-    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
+    background-color: rgba(222, 215, 215, 0.3); /* Color blanco semitransparente */
     backdrop-filter: blur(10px); /* Aplica el desenfoque */
-    border-radius: 20px; /* Bordes redondeados opcionales */
+    border-radius: 20px; /* Bordes redondeados */
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(162, 6, 209, 0.2); 
-
+    box-shadow: 0 4px 8px rgba(162, 6, 209, 0.2);
     color: white;
-
     margin-top: 1em;
-
-
 }
 
 .miniBox {
@@ -72,16 +60,32 @@ body{
     margin: 0;
     max-width: 100%;
     max-height: 90%;
-    background-color: rgba(222, 215, 215, 0.103); /* Color blanco semitransparente */
+    background-color: rgba(222, 215, 215, 0.1); /* Color blanco semitransparente */
     backdrop-filter: blur(10px); /* Aplica el desenfoque */
-    border-radius: 10px; /* Bordes redondeados opcionales */
+    border-radius: 10px; /* Bordes redondeados */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(82, 11, 11, 0.2); /* Sombra opcional */
-
     overflow: hidden;
-
-    
-
     color: white;
+}
 
+.imgContainer {
+    max-width: 25%;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.2); /* Sombra opcional */
+    transition: transform 0.3s ease-in-out; /* Efecto de transición */
+}
+
+.imgContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+.imgContainer:hover img {
+    transform: scale(1.1); /* Amplía la imagen al pasar el ratón */
 }
