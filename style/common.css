@@ -4,9 +4,10 @@
     border: 0;
 }
 body {
-    background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
+   
+    background-color: rgba(255, 255, 255, 0); 
     backdrop-filter: blur(0.18em); /* Aplica el desenfoque */
-    background: url(../Assets/images/fondo.gif) no-repeat center top;
+    background: url(../Assets/images/fondo.gif) ;
     background-size: cover; /* Asegura que el fondo cubra toda la ventana */
     background-attachment: scroll; /* Permite que el fondo se mueva con el scroll */
     min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
