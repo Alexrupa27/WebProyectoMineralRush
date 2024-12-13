@@ -24,9 +24,9 @@ body{
 
 #juego{
     display: flex;
-    align-items: center;
-    justify-content: left;
+    justify-content: center;
     margin-top: 4em;
+    
 }
 
 .imgContainer{
@@ -48,19 +48,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 1em;
-
-    
-
-    margin-left: 16em;
-    margin-right: 2em;
-
+    margin: 2em auto;
     width: 40%;
-    height: 50vh;
-    background-color: rgba(222, 215, 215, 0.300); /* Color blanco semitransparente */
-    backdrop-filter: blur(10px); /* Aplica el desenfoque */
-    border-radius: 20px; /* Bordes redondeados opcionales */
+    background-color: rgba(222, 215, 215, 0.300);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4); /* Sombra opcional */
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4);
 
     overflow: hidden;
 }
@@ -73,3 +67,36 @@ body{
 
     color: white;
 }
+
+.transparentBoxFeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 2em auto;
+    width: 40%;
+    background-color: rgba(222, 215, 215, 0.300);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(82, 11, 11, 0.4);
+  }
+  
+  .featuresList {
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .featuresList li {
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .featuresList li::before {
+    content: '🌟';
+    margin-right: 0.5em;
+  }
+  

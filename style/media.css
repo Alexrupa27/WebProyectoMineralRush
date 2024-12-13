@@ -16,7 +16,7 @@ body{
   .titulo::after {
     content: '';
     display: inline-block;
-    width: 10%;
+    width: 30%;
     height: 2px;
     background-color: #fefefe;
     vertical-align: middle;
@@ -28,14 +28,15 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
+
   }
   
   #galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espacio entre las imágenes */
-    width: 70%;
+    gap: 15px; /* Espacio entre las imágenes */
+    width: 65%;
   }
   
   .imgContainer {
@@ -43,8 +44,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 calc(33.33% - 20px); /* Cada imagen ocupa un 33.33% del ancho menos el espacio de gap */
-    max-width: calc(33.33% - 20px); /* Asegura que no se sobrepasen de 3 por línea */
+    flex: 1 1 calc(33.33% - 60px); /* Cada imagen ocupa un 33.33% del ancho menos el espacio de gap */
+    max-width: calc(33.33% - 60px); /* Asegura que no se sobrepasen de 3 por línea */
   }
   
   .imgContainer img {
@@ -58,4 +59,5 @@ body{
   .imgContainer img:hover {
     transform: scale(2.05); /* Efecto de zoom al pasar el ratón sobre la imagen */
   }
+  
   
