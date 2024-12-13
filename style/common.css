@@ -3,15 +3,17 @@
     padding: 0;
     border: 0;
 }
-body{
-    background-color: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
-    backdrop-filter:blur(0.18em); /* Aplica el desenfoque */
-    background: url(../Assets/images/fondo.gif) no-repeat center top;
-    background-size: cover;
-
-    height: 100vh;
-    width: 100vw;
+body {
+   
+    background-color: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(0.18em); /* Aplica el desenfoque */
+    background: url(../Assets/images/fondo.gif) ;
+    background-size: cover; /* Asegura que el fondo cubra toda la ventana */
+    background-attachment: scroll; /* Permite que el fondo se mueva con el scroll */
+    min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
+    width: 100%; /* Evita problemas de desbordamiento horizontal */
 }
+
 nav{
     height: 100%;
     margin-left: 3em;    
@@ -37,6 +39,8 @@ nav{
     background-size: auto 20vh; */
 
 }
+
+
 
 #logo{
     flex: 1;

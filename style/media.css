@@ -2,59 +2,62 @@ body{
     margin: 0%;
 }
 
+
 .titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em; /* Tamaño del título */
+    text-align: center;
+    font-size: 2em;
     font-family: 'Minecraft', sans-serif;
     font-weight: bold;
-    color: #fefefe; /* Color del texto */
-}
-
-.titulo::before,
-.titulo::after {
+    color: #fefefe;
+    margin: 1em 0;
+  }
+  
+  .titulo::before,
+  .titulo::after {
     content: '';
-    flex-grow: 1;
-    height: 0.1em;
-    background-color: #ffffff;
-    margin: 0 1em; 
-}
-
-#media{
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    background-color: #fefefe;
+    vertical-align: middle;
+    margin: 0 1em;
+  }
+  
+  #media {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
 
-    margin-top: 2em;
-}
-
-#galeria{
-
+  }
+  
+  #galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
-    width: 50%;
-
     justify-content: center;
+    gap: 15px; /* Espacio entre las imágenes */
+    width: 65%;
+  }
+  
+  .imgContainer {
     
-
-}
-
-
-.imgContainer{
-
     display: flex;
-    background-color: #fefefe;
-    box-sizing: border-box;
-    border-radius: 20px; 
-    align-items: center;
-    flex:  calc(33.33% - 20px) ; 
-
     justify-content: center;
-    padding: 0.2em;
-
-    
-}
-      
-
-      
+    align-items: center;
+    flex: 1 1 calc(33.33% - 60px); /* Cada imagen ocupa un 33.33% del ancho menos el espacio de gap */
+    max-width: calc(33.33% - 60px); /* Asegura que no se sobrepasen de 3 por línea */
+  }
+  
+  .imgContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .imgContainer img:hover {
+    transform: scale(2.05); /* Efecto de zoom al pasar el ratón sobre la imagen */
+  }
+  
+  
