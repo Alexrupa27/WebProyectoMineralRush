@@ -100,7 +100,12 @@ footer{
 
 }
 
-
+footer{
+display: flex;
+align-items:flex-end;
+margin-left: 1em;
+color: whitesmoke;
+}
 
 
 
