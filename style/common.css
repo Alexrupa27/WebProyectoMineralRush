@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
+}
+html{
+    background-color: #150115; 
+
 }
 body {
    
-    background-color: rgba(255, 255, 255, 0); 
+    background-color: #150115; 
     backdrop-filter: blur(0.18em); /* Aplica el desenfoque */
     background: url(../Assets/images/fondo.gif) ;
     background-size: cover; /* Asegura que el fondo cubra toda la ventana */
     background-attachment: scroll; /* Permite que el fondo se mueva con el scroll */
+    background-repeat: no-repeat;
     min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
     width: 100%; /* Evita problemas de desbordamiento horizontal */
 }
