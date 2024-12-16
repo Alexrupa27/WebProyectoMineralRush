@@ -44,8 +44,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 calc(33.33% - 60px); /* Cada imagen ocupa un 33.33% del ancho menos el espacio de gap */
-    max-width: calc(33.33% - 60px); /* Asegura que no se sobrepasen de 3 por línea */
+    flex: 1 1 calc(33.33% - 10px); /* Cada imagen ocupa un 33.33% del ancho menos el espacio de gap */
+    max-width: calc(33.33% - 10px); /* Asegura que no se sobrepasen de 3 por línea */
   }
   
   .imgContainer img {
