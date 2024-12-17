@@ -1,12 +1,12 @@
 #LogoGigante {
-width: 27em;
-margin-top:1.0em;
-margin-bottom: 2em;
+    width: 27em;
+    margin-top:1.0em;
+    margin-bottom: 2em;
 }
 
 #subtext{
     width: 60em;
-    
+    margin-bottom: 10%;
 }
 
 .center{
