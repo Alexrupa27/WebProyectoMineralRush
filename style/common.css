@@ -16,7 +16,7 @@ body {
     background-size: cover; /* Asegura que el fondo cubra toda la ventana */
     background-attachment: scroll; /* Permite que el fondo se mueva con el scroll */
     background-repeat: no-repeat;
-    min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
+    /* min-height: 100vh; Asegura que el fondo cubra al menos la altura de la ventana */
     width: 100%; /* Evita problemas de desbordamiento horizontal */
 }
 
@@ -59,10 +59,6 @@ main{
     /* background-color: blueviolet; */
 }
 
-footer{
-    height: 10vh;
-    /* background-color: chartreuse; */
-}
 
 
 .flex{
@@ -111,6 +107,7 @@ display: flex;
 align-items:flex-end;
 margin-left: 1em;
 color: whitesmoke;
+position: absolute
 }
 
 
